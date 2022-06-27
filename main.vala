@@ -109,6 +109,7 @@ class Terminal : Gtk.Paned {
     if(t != null) {
       var dir = t.get_current_directory();
       if(dir != null) {
+        dir += "/";
         terminal.feed_child(dir.data);
       }
     }
