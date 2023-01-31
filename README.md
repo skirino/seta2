@@ -9,7 +9,7 @@ Prerequisites for macOS
     - To setup:
       - Uninstall later version of gtk+3; it could be installed alongside vte3.
       - Install the working version:
-        - `brew tap-info skirino/taps`
+        - `brew tap-new skirino/taps`
         - `brew extract gtk+3 skirino/taps --version 3.24.33`
         - `brew install skirino/taps/gtk+3@3.24.33`
       - Make a symlink: `/opt/homebrew/opt/gtk+3` -> `/opt/homebrew/opt/gtk+3@3.24.33`
