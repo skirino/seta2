@@ -3,7 +3,7 @@ namespace Config {
   const int WINDOW_HEIGHT = 1050;
   const string FONT = "Monaco 12";
   const string COLOR_FOREGROUND = "rgb(255,255,255)";
-  const string COLOR_BACKGROUND = "rgba(0, 0, 0, 0.7)";
+  const string COLOR_BACKGROUND = "rgba(0, 0, 0, 0.6)";
   const uint SCROLL_LINES_ON_KEY_ACTION = 5;
 }
 
