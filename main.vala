@@ -125,9 +125,7 @@ class Terminal : Gtk.Paned {
     if(uri == null) {
       return null;
     } else {
-      // The uri starts with `file://`; find the first `/` after that.
-      var i = uri.index_of_char('/', 7);
-      return uri.slice(i, uri.length);
+      return Uri.parse(uri, UriFlags.NONE).get_path();
     }
   }
 }
